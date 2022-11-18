@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Zippo lighters handbook</string>
+    <string name="buttonAddCard">Add Zippo lighter</string>
 </resources>

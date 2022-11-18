@@ -10,7 +10,7 @@ import com.zebrano.zippolightershandbook.databinding.LighterItemBinding
 class LightersAdapter: RecyclerView.Adapter<LightersAdapter.LightHolder>() {
     val zippoList = ArrayList<Lighter>()
 
-    class LightHolder(item : View) : RecyclerView.ViewHolder(item) {
+    class LightHolder(item : View) : ViewHolder(item) {
         val binding = LighterItemBinding.bind(item)
         fun bind(lighter: Lighter) = with(binding) {
             im.setImageResource(lighter.imgId)
@@ -34,7 +34,8 @@ class LightersAdapter: RecyclerView.Adapter<LightersAdapter.LightHolder>() {
     }
 
     fun addZippo(lighter: Lighter){
+        val pos = zippoList.size
         zippoList.add(lighter)
-        notifyDataSetChanged()
+        notifyItemChanged(pos)
     }
 }
