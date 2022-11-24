@@ -29,7 +29,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="300dp"
                 android:layout_margin="5dp"
-                app:srcCompat="@drawable/zippo_abstract_faces_design" />
+                app:srcCompat="@drawable/zippo_abstract_faces_design"
+                android:contentDescription="TODO" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
@@ -72,7 +73,8 @@
                 android:hint="@string/ptName"
                 android:inputType="textPersonName"
                 android:textColorHint="#959595"
-                tools:ignore="TouchTargetSizeCheck" />
+                tools:ignore="TouchTargetSizeCheck"
+                android:autofillHints="" />
 
             <EditText
                 android:id="@+id/ptDesc"
@@ -83,7 +85,8 @@
                 android:hint="@string/ptDesc"
                 android:inputType="textPersonName"
                 android:textColorHint="#959595"
-                tools:ignore="TouchTargetSizeCheck" />
+                tools:ignore="TouchTargetSizeCheck"
+                android:autofillHints="" />
 
             <Button
                 android:id="@+id/bDone"
@@ -92,7 +95,8 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:text="@string/bDone"
-                android:textAllCaps="false" />
+                android:textAllCaps="false"
+                android:textColor="#000000" />
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>
