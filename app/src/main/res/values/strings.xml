@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Zippo lighters handbook</string>
     <string name="buttonAddCard">Add Zippo lighter</string>
+    <string name="buttonSelectImage">Next</string>
+    <string name="ptName">Lighter name</string>
+    <string name="ptDesc">Description</string>
+    <string name="bDone">Done</string>
 </resources>

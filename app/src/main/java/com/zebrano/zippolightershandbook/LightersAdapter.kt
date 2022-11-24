@@ -15,7 +15,7 @@ class LightersAdapter: RecyclerView.Adapter<LightersAdapter.LightHolder>() {
         fun bind(lighter: Lighter) = with(binding) {
             im.setImageResource(lighter.imgId)
             tvTitle.text = lighter.title
-            tvDescription.text = lighter.descr
+            //tvDescription.text = lighter.descr
         }
     }
 
